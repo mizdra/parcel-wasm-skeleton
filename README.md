@@ -1,4 +1,4 @@
-# webpack-wasm-skeleton
+# parcel-wasm-skeleton
 WebAssemblyの素振り環境.
 
 ## Requirements
@@ -26,7 +26,7 @@ $ rustup target add wasm32-unknown-unknown --toolchain nightly
 
 ## Usage
 1. `mkdir new-project && cd $_`
-1. `wget -O - https://github.com/mizdra/webpack-wasm-skeleton/archive/master.tar.gz | tar xzvf - --strip=1 --exclude LICENSE`
+1. `wget -O - https://github.com/mizdra/parcel-wasm-skeleton/archive/master.tar.gz | tar xzvf - --strip=1 --exclude LICENSE`
 1. `npx npm-check-updates -a`
 1. `yarn install --force`
 1. `yarn run start`
